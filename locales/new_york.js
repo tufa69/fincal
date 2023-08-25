@@ -39,6 +39,15 @@ exports.partialTradingDays = {
     },
     2021: {
         November: [ 26 ]
+    },
+    2023: {
+        July: [ 3 ],
+        November: [ 24 ]
+    },
+    2024: {
+        July: [ 3 ],
+        November: [ 29 ],
+        December: [ 24 ]
     }
 };
 
@@ -47,6 +56,23 @@ exports.partialTradingHours = [
 ];
 
 exports.holidays = {
+    2023: {
+        July: [ 4 ],
+        September: [ 4 ],
+        November: [ 23 ],
+        December: [ 25 ]
+    },
+    2024: {
+        January: [ 1, 15 ],
+        February: [ 19 ],
+        March: [ 29 ],
+        May: [ 27 ],
+        June: [ 19 ],
+        July: [ 4 ],
+        September: [ 2 ],
+        November: [ 28 ],
+        December: [ 25 ]
+    },
     2015: {
         January: [ 1, 19 ],
         February: [ 16 ],
