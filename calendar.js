@@ -257,7 +257,6 @@ exports.Calendar = function(name, locale) {
         date.millisecond(0);
         date = date.subtract(1, "day");
         for (var i = 0; i < 10; i++) {
-            console.log('checking data: ', date);
             if (me.isTradingDay(date)) return date;
             else date = date.subtract(1, "day");
         }
