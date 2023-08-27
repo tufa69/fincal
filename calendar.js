@@ -180,7 +180,7 @@ exports.Calendar = function(name, locale) {
         date.minute(0);
         date.second(0);
         date.millisecond(0);
-        
+        date = date.add(1, "day");
         for (var i = 0; i < 10; i++) {
             if (me.isTradingDay(date)) return date;
             else date = date.add(1, "day");
@@ -195,7 +195,7 @@ exports.Calendar = function(name, locale) {
         date.minute(0);
         date.second(0);
         date.millisecond(0);
-        
+        date = date.add(1, "day");
         for (var i = 0; i < 10; i++) {
             if (me.isTradingDay(date) && !me.isPartialTradingDay(date)) return date;
             else date = date.add(1, "day");
@@ -210,7 +210,7 @@ exports.Calendar = function(name, locale) {
         date.minute(0);
         date.second(0);
         date.millisecond(0);
-        
+        date = date.add(1, "day");
         for (var i = 0; i < 10; i++) {
             if (me.isRegularTradingDay(date)) return date;
             else date = date.add(1, "day");
@@ -225,7 +225,7 @@ exports.Calendar = function(name, locale) {
         date.minute(0);
         date.second(0);
         date.millisecond(0);
-        
+        date = date.add(1, "day");
         for (var i = 0; i < 700; i++) {
             if (me.isPartialTradingDay(date)) return date;
             else date = date.add(1, "day");
@@ -240,7 +240,7 @@ exports.Calendar = function(name, locale) {
         date.minute(0);
         date.second(0);
         date.millisecond(0);
-        
+        date = date.add(1, "day");
         for (var i = 0; i < 400; i++) {
             if (me.isHoliday(date)) return date;
             else date = date.add(1, "day");
