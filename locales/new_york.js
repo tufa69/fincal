@@ -2,6 +2,10 @@ exports.timezone = "America/New_York";
 
 exports.regularTradingDays = "Weekday";
 
+exports.preMarketTradingHours = [
+    { from: "8:00 am", to: "9:30 am" }
+];
+
 exports.regularTradingHours = [
     { from: "9:30 am", to: "4:00 pm" }
 ];
