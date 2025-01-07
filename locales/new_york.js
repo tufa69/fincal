@@ -87,7 +87,7 @@ exports.holidays = {
         December: [ 25 ]
     },
     2025: {
-        January: [ 1, 20 ],
+        January: [ 1, 9, 20 ],
         February: [ 17 ],
         April: [ 18 ],
         May: [ 26 ],
