@@ -54,6 +54,7 @@ exports.partialTradingDays = {
         December: [ 24 ]
     },
     2025: {
+        July: [ 3 ],
         November: [ 28 ],
         December: [ 24 ]
     },
